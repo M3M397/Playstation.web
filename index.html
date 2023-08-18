@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore a wide range of PlayStation products at PS4 V2 DualShock4 Wireless Controller For PS4. Get the best deals on compatible/generic controllers for your gaming experience. Buy now and enhance your gaming sessions. Contact us for more information.">
+    <meta name="keywords" content="PS4, PS4 Controller, Sony PS, playstaion4">
+    <title>Playstation.web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="logo.png" alt="Logo" class="logo">
+            <nav>
+                <ul id="menulist">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <img src="menu.png" alt="menu" class="menu-ico" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col1">
+                <h2>PS4 V2<br> DualShock4 </h2>
+                <h3>Wireless Controller For PS4</h3>
+                <p>(Compatible/Generic)</p>
+                <h4>$49.99 </h4>
+                <button type="button">Buy Now <img src="arrow.png"></button>
+            </div>
+            <div class="col2">
+                <img src="controller.png" alt="controller" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <img src="add.png" alt="Add to cart">
+                    <p><small>Add to Cart</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="social-links">
+            <img src="fb.png" alt="Facebook link">
+            <img src="tw.png" alt="Twitter link">
+            <img src="ig.png" alt="Instagram link">
+        </div>
+    </div>
+    <footer>
+        <p class="credits">Copyright © <a href="https://github.com/M3M397" target="_blank">Muhammad Bazil (M3M)</a></p>
+    </footer>
+    <script>
+        var menulist = document.getElementById('menulist');
+        menulist.style.maxHeight = "0px";
+
+        function togglemenu() {
+            if (menulist.style.maxHeight == "0px") {
+                menulist.style.maxHeight = "150px";
+            } else {
+                menulist.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+</body>
+
+</html>
